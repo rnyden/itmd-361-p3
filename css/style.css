@@ -22,6 +22,7 @@ body {
 
 img {
   image-rendering: high-quality;
+	max-width: 100%;
 }
 
 h1 {
