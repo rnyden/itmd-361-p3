@@ -1,6 +1,7 @@
 var platform = new H.service.Platform({
   'apikey': '{OpslUQ2FwfE_6whPEWSaLDDMl2Z7A_AP7lb9QSw73Y4}'
 });
+var defaultMapTypes = platform.createDefaultLayers();
 
 function initMap() {
   const place = { lat: -25.344, lng: 131.036 };
