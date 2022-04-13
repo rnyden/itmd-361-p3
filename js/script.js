@@ -1,5 +1,6 @@
 var platform = new H.service.Platform({
-  'apikey': '{OpslUQ2FwfE_6whPEWSaLDDMl2Z7A_AP7lb9QSw73Y4}'
+	appid: 'n9BhwoF43uZ3bLxqDfaw'
+  apikey: 'OpslUQ2FwfE_6whPEWSaLDDMl2Z7A_AP7lb9QSw73Y4'
 });
 var defaultLayers = platform.createDefaultLayers();
 var map = new H.Map(document.getElementById('mapContainer'),
