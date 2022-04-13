@@ -107,3 +107,8 @@ p {
   float: right;
 	display: block;
 }
+
+#map {
+  height: 50%;
+  width: 75%;
+}
