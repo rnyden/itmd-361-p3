@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<script type="text/javascript" src="js/script.js"></script>
+	<script src="js/script.js"></script>
   <title>Map</title>
 </head>
 <body>
@@ -17,5 +17,11 @@
 			<li><a href="map.html">Map</a></li>
     </ul>
   </nav>
+	<div id="map"></div>
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&v=weekly"
+      async
+    ></script>
 </body>
 </html>
