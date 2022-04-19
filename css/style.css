@@ -116,6 +116,8 @@ p {
   margin: auto;
   overflow: hidden;
 	margin-bottom: 25px;	
+	border: double;
+  border-color: pink red purple blue;
 }
 
 #canvas {
