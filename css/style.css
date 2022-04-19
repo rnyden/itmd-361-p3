@@ -123,6 +123,7 @@ p {
   height: 80%;
   background-color: #e9b7f7;
   margin: auto;
+	margin-top: 50px;
 }
 
 #map {
