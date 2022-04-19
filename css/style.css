@@ -108,7 +108,26 @@ p {
 	display: block;
 }
 
+
+#wrapper {
+  width: 850px;
+  height: 600px;
+  background-color: #c5b7f7;
+  margin: auto;
+  overflow: hidden;
+}
+
+#canvas {
+  width: 700px;
+  height: 500px;
+  background-color: #e9b7f7;
+  margin: auto;
+}
+
 #map {
+	width: 75%;
   height: 50%;
-  width: 75%;
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
 }
