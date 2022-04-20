@@ -3,7 +3,7 @@ function initMap() {
 	const casaBotin = { lat: 40.414170, lng: -3.707970 };
   const map = new google.maps.Map(document.getElementById('map'), {
     center: casaBotin,
-    zoom: 10
+    zoom: 11
   });
 	const aboutRestaurant =
     '<div id="content">' +
@@ -37,8 +37,10 @@ function initMap() {
   });
 	
 	const trafficLayer = new google.maps.TrafficLayer();
-
   trafficLayer.setMap(map);
+	
+	const transitLayer = new google.maps.TransitLayer();
+  transitLayer.setMap(map);
 
 }
 google.maps.event.addDomListener(window, 'load', initMap);
