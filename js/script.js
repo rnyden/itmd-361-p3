@@ -17,14 +17,17 @@ function initMap() {
     "</p>" +
     "</div>" +
     "</div>";
+	
   const infowindow = new google.maps.InfoWindow({
     content: aboutRestaurant,
   });
+
 	const marker1 = new google.maps.Marker({
     position: casaBotin,
     map: map,
 		title: "Sobrino de Botín",
   });
+	
 	marker1.addListener("click", () => {
     infowindow.open({
       anchor: marker1,
@@ -32,6 +35,10 @@ function initMap() {
       shouldFocus: false,
     });
   });
+	
+	const trafficLayer = new google.maps.TrafficLayer();
+
+  trafficLayer.setMap(map);
 
 }
 google.maps.event.addDomListener(window, 'load', initMap);
